@@ -28,4 +28,19 @@ pipeline {
             }
         }
     }
+
+    post {
+
+        always {
+
+            publishHTML([
+                allowMissing: true,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'test-output',
+                reportFiles: 'ExtentReport.html',
+                reportName: 'Extent Report'
+            ])
+        }
+    }
 }
