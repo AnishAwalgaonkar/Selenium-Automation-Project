@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-GUI_Suite" class="navigator-link">
+              <span class="suite-name border-passed">GUI Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-GUI_Suite" class="navigator-link ">
+                    <span>C:\Anish\Wipro\Workspace\FinalProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-GUI_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-GUI_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-GUI_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-GUI_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-GUI_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-GUI_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GUI_Suite" class="hide-methods passed suite-GUI_Suite"> (hide)</a> <!-- hide-methods passed suite-GUI_Suite -->
+                      <a href="#" panel-name="suite-GUI_Suite" class="show-methods passed suite-GUI_Suite"> (show)</a> <!-- show-methods passed suite-GUI_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-GUI_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC01_GUIElementsTest">TC01_GUIElementsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC02_DatePickerTest">TC02_DatePickerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC03_FileUploadTest">TC03_FileUploadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC04_PaginationTable">TC04_PaginationTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC05_WikipediaSearchTabs">TC05_WikipediaSearchTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC06_Alerts">TC06_Alerts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC07_NewTabOpenClose">TC07_NewTabOpenClose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC08_PopUpWindows">TC08_PopUpWindows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC09_MouseHover">TC09_MouseHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC10_DoubleClick">TC10_DoubleClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC11_DragAndDrop">TC11_DragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GUI_Suite" title="tests.HomePageTestCases" class="method navigator-link" hash-for-method="TC12_SliderDropdownAndLinks">TC12_SliderDropdownAndLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GUI_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-GUI_Suite" class="panel GUI_Suite">
+          <div class="suite-GUI_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_GUIElementsTest">
+                  </a> <!-- TC01_GUIElementsTest -->
+                  <span class="method-name">TC01_GUIElementsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC02_DatePickerTest">
+                  </a> <!-- TC02_DatePickerTest -->
+                  <span class="method-name">TC02_DatePickerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_FileUploadTest">
+                  </a> <!-- TC03_FileUploadTest -->
+                  <span class="method-name">TC03_FileUploadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_PaginationTable">
+                  </a> <!-- TC04_PaginationTable -->
+                  <span class="method-name">TC04_PaginationTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC05_WikipediaSearchTabs">
+                  </a> <!-- TC05_WikipediaSearchTabs -->
+                  <span class="method-name">TC05_WikipediaSearchTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC06_Alerts">
+                  </a> <!-- TC06_Alerts -->
+                  <span class="method-name">TC06_Alerts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC07_NewTabOpenClose">
+                  </a> <!-- TC07_NewTabOpenClose -->
+                  <span class="method-name">TC07_NewTabOpenClose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC08_PopUpWindows">
+                  </a> <!-- TC08_PopUpWindows -->
+                  <span class="method-name">TC08_PopUpWindows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC09_MouseHover">
+                  </a> <!-- TC09_MouseHover -->
+                  <span class="method-name">TC09_MouseHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10_DoubleClick">
+                  </a> <!-- TC10_DoubleClick -->
+                  <span class="method-name">TC10_DoubleClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11_DragAndDrop">
+                  </a> <!-- TC11_DragAndDrop -->
+                  <span class="method-name">TC11_DragAndDrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12_SliderDropdownAndLinks">
+                  </a> <!-- TC12_SliderDropdownAndLinks -->
+                  <span class="method-name">TC12_SliderDropdownAndLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GUI_Suite-class-passed -->
+        </div> <!-- panel GUI_Suite -->
+        <div panel-name="test-xml-GUI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Anish\Wipro\Workspace\FinalProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;GUI Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GUI Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomePageTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GUI Tests --&gt;
+&lt;/suite&gt; &lt;!-- GUI Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GUI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GUI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GUI Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GUI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GUI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GUI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GUI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GUI_Suite');
+function tableData_GUI_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC01_GUIElementsTest')
+data.setCell(0, 2, 'tests.HomePageTestCases')
+data.setCell(0, 3, 24781);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC12_SliderDropdownAndLinks')
+data.setCell(1, 2, 'tests.HomePageTestCases')
+data.setCell(1, 3, 23250);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC07_NewTabOpenClose')
+data.setCell(2, 2, 'tests.HomePageTestCases')
+data.setCell(2, 3, 8480);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC02_DatePickerTest')
+data.setCell(3, 2, 'tests.HomePageTestCases')
+data.setCell(3, 3, 7959);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC06_Alerts')
+data.setCell(4, 2, 'tests.HomePageTestCases')
+data.setCell(4, 3, 7223);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC05_WikipediaSearchTabs')
+data.setCell(5, 2, 'tests.HomePageTestCases')
+data.setCell(5, 3, 7173);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC04_PaginationTable')
+data.setCell(6, 2, 'tests.HomePageTestCases')
+data.setCell(6, 3, 5157);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC03_FileUploadTest')
+data.setCell(7, 2, 'tests.HomePageTestCases')
+data.setCell(7, 3, 4775);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC08_PopUpWindows')
+data.setCell(8, 2, 'tests.HomePageTestCases')
+data.setCell(8, 3, 4197);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC09_MouseHover')
+data.setCell(9, 2, 'tests.HomePageTestCases')
+data.setCell(9, 3, 2479);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC11_DragAndDrop')
+data.setCell(10, 2, 'tests.HomePageTestCases')
+data.setCell(10, 3, 2429);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC10_DoubleClick')
+data.setCell(11, 2, 'tests.HomePageTestCases')
+data.setCell(11, 3, 2326);
+window.suiteTableData['GUI_Suite']= { tableData: data, tableDiv: 'times-div-GUI_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-GUI_Suite">
+              </div> <!-- times-div-GUI_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GUI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GUI Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GUI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GUI_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC01_GUIElementsTest</span>
+                <span class="method-start">22338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC02_DatePickerTest</span>
+                <span class="method-start">47166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC03_FileUploadTest</span>
+                <span class="method-start">55131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC04_PaginationTable</span>
+                <span class="method-start">59916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC05_WikipediaSearchTabs</span>
+                <span class="method-start">65087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC06_Alerts</span>
+                <span class="method-start">72270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC07_NewTabOpenClose</span>
+                <span class="method-start">79509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC08_PopUpWindows</span>
+                <span class="method-start">88003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC09_MouseHover</span>
+                <span class="method-start">92216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC10_DoubleClick</span>
+                <span class="method-start">94713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC11_DragAndDrop</span>
+                <span class="method-start">97073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC12_SliderDropdownAndLinks</span>
+                <span class="method-start">99509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122764 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
