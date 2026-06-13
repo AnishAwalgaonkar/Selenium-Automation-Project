@@ -13,9 +13,9 @@ import listeners.TestListener;
 import pages.CompleteHomePageAutomation;
 
 @Listeners(TestListener.class)
-public class HomePageTestCases extends BaseTest {
+public class HomePageTest extends BaseTest {
 
-    Logger log = LogManager.getLogger(HomePageTestCases.class);
+    Logger log = LogManager.getLogger(HomePageTest.class);
 
     /* =========================================================
 	 * TestCase_01: GUIElementsTest
