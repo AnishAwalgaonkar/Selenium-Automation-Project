@@ -55,27 +55,23 @@
 	</dependency>
 
 </dependencies>
-<build>
+<<<<<<< HEAD
+=======
+	<build>
 		<plugins>
 			<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
+    			<groupId>org.apache.maven.plugins</groupId>
+    			<artifactId>maven-surefire-plugin</artifactId>
+    			<version>3.5.2</version>
 
-    <artifactId>maven-surefire-plugin</artifactId>
+    			<configuration>
+        			<suiteXmlFiles>
+            			<suiteXmlFile>testng.xml</suiteXmlFile>
+        			</suiteXmlFiles>
+    			</configuration>
 
-    <version>3.5.2</version>
-
-    <configuration>
-
-        <suiteXmlFiles>
-
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-
-        </suiteXmlFiles>
-
-    </configuration>
-
-</plugin>
+			</plugin>
 		</plugins>
 	</build>
-	
 </project>
+>>>>>>> 7a7e81d08ee9949b0597c84414f16da477b7bcae
