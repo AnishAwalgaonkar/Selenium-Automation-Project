@@ -28,11 +28,6 @@ pipeline {
             }
         }
     }
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 7a7e81d08ee9949b0597c84414f16da477b7bcae
     post {
 
         always {
@@ -47,8 +42,4 @@ pipeline {
             ])
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 7a7e81d08ee9949b0597c84414f16da477b7bcae
