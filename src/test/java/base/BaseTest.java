@@ -3,6 +3,7 @@ package base;
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -12,7 +13,13 @@ public class BaseTest {
     @BeforeClass
     public void setup() {
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        ChromeOptions options =
+                new ChromeOptions();
+
+        options.setBinary(
+            "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://testautomationpractice.blogspot.com/");
