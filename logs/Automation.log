@@ -345,3 +345,45 @@ Sample2.txt, Size: 0 bytes, Type: text/plain
 2026-06-12 11:43:26,880 INFO  tests.HomePageTestCases - Selecting Item 50
 2026-06-12 11:43:29,275 INFO  tests.HomePageTestCases - Opening Lenovo Link
 2026-06-12 11:43:38,654 INFO  tests.HomePageTestCases - Verifying Broken Links
+2026-06-13 09:13:26,166 INFO  tests.HomePageTest - Entering Name
+2026-06-13 09:13:28,548 INFO  tests.HomePageTest - Entering Email
+2026-06-13 09:13:30,730 INFO  tests.HomePageTest - Entering Phone
+2026-06-13 09:13:33,043 INFO  tests.HomePageTest - Entering Address
+2026-06-13 09:13:35,216 INFO  tests.HomePageTest - Selecting Gender
+2026-06-13 09:13:37,463 INFO  tests.HomePageTest - Selecting Monday Checkbox
+2026-06-13 09:13:39,765 INFO  tests.HomePageTest - Selecting Country
+2026-06-13 09:13:42,059 INFO  tests.HomePageTest - Selecting Colors
+2026-06-13 09:13:44,879 INFO  tests.HomePageTest - Selecting Animal
+2026-06-13 09:13:47,113 INFO  tests.HomePageTest - GUI Elements Validation Completed Successfully
+2026-06-13 09:13:47,157 INFO  tests.HomePageTest - Selecting Date Picker 1
+2026-06-13 09:13:50,114 INFO  tests.HomePageTest - Selecting Date Picker 2
+2026-06-13 09:13:52,303 INFO  tests.HomePageTest - Selecting Date Range
+2026-06-13 09:13:55,122 INFO  tests.HomePageTest - Date Picker Validation Completed
+2026-06-13 09:13:55,144 INFO  tests.HomePageTest - Uploading Single File
+2026-06-13 09:13:57,510 INFO  tests.HomePageTest - Single file selected: Resume.pdf, Size: 0 bytes, Type: application/pdf
+2026-06-13 09:13:57,511 INFO  tests.HomePageTest - Uploading Multiple Files
+2026-06-13 09:14:00,728 INFO  tests.HomePageTest - Multiple files selected:
+Sample1.txt, Size: 0 bytes, Type: text/plain
+Sample2.txt, Size: 0 bytes, Type: text/plain
+2026-06-13 09:14:00,763 INFO  tests.HomePageTest - Selecting Laptop
+2026-06-13 09:14:03,347 INFO  tests.HomePageTest - Selecting Smartwatch
+2026-06-13 09:14:05,871 INFO  tests.HomePageTest - Pagination Table Validation Passed
+2026-06-13 09:14:05,892 INFO  tests.HomePageTest - Searching Animal
+2026-06-13 09:14:08,270 INFO  tests.HomePageTest - Clicking Animal Result
+2026-06-13 09:14:13,877 INFO  tests.HomePageTest - Switched To Child Window
+2026-06-13 09:14:16,315 INFO  tests.HomePageTest - Returned To Parent Window
+2026-06-13 09:14:16,332 INFO  tests.HomePageTest - Handling Simple Alert
+2026-06-13 09:14:18,562 INFO  tests.HomePageTest - Handling Confirmation Alert
+2026-06-13 09:14:20,828 INFO  tests.HomePageTest - Handling Prompt Alert
+2026-06-13 09:14:23,426 INFO  tests.HomePageTest - New Tab Opened
+2026-06-13 09:14:34,981 INFO  tests.HomePageTest - Popup Windows Handled
+2026-06-13 09:14:35,020 INFO  tests.HomePageTest - Hovering Over Menu
+2026-06-13 09:14:37,414 INFO  tests.HomePageTest - Mouse Hover Completed
+2026-06-13 09:14:37,479 INFO  tests.HomePageTest - Performing Double Click
+2026-06-13 09:14:40,180 INFO  tests.HomePageTest - Double Click Completed
+2026-06-13 09:14:40,194 INFO  tests.HomePageTest - Performing Drag and Drop
+2026-06-13 09:14:42,534 INFO  tests.HomePageTest - Drag and Drop Completed
+2026-06-13 09:14:42,545 INFO  tests.HomePageTest - Setting Slider Range
+2026-06-13 09:14:46,481 INFO  tests.HomePageTest - Selecting Item 50
+2026-06-13 09:14:48,810 INFO  tests.HomePageTest - Opening Lenovo Link
+2026-06-13 09:14:56,161 INFO  tests.HomePageTest - Verifying Broken Links
